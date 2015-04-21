@@ -14,6 +14,11 @@
 		F484EAF71AE6ADBD00E12D92 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F484EAF61AE6ADBD00E12D92 /* Images.xcassets */; };
 		F484EAFA1AE6ADBD00E12D92 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F484EAF81AE6ADBD00E12D92 /* LaunchScreen.xib */; };
 		F484EB061AE6ADBD00E12D92 /* TasksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F484EB051AE6ADBD00E12D92 /* TasksTests.m */; };
+		F484EB1A1AE6AE1E00E12D92 /* CloudTaskCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = F484EB101AE6AE1E00E12D92 /* CloudTaskCoordinator.m */; };
+		F484EB1B1AE6AE1E00E12D92 /* GlanceInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = F484EB121AE6AE1E00E12D92 /* GlanceInterfaceController.m */; };
+		F484EB1C1AE6AE1E00E12D92 /* TaskDocumentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F484EB141AE6AE1E00E12D92 /* TaskDocumentsViewController.m */; };
+		F484EB1D1AE6AE1E00E12D92 /* TaskItemsPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = F484EB161AE6AE1E00E12D92 /* TaskItemsPresenter.m */; };
+		F484EB1E1AE6AE1E00E12D92 /* TasksInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = F484EB191AE6AE1E00E12D92 /* TasksInterfaceController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +45,17 @@
 		F484EAFF1AE6ADBD00E12D92 /* TasksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TasksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F484EB041AE6ADBD00E12D92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F484EB051AE6ADBD00E12D92 /* TasksTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TasksTests.m; sourceTree = "<group>"; };
+		F484EB0F1AE6AE1E00E12D92 /* CloudTaskCoordinator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloudTaskCoordinator.h; sourceTree = "<group>"; };
+		F484EB101AE6AE1E00E12D92 /* CloudTaskCoordinator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CloudTaskCoordinator.m; sourceTree = "<group>"; };
+		F484EB111AE6AE1E00E12D92 /* GlanceInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlanceInterfaceController.h; sourceTree = "<group>"; };
+		F484EB121AE6AE1E00E12D92 /* GlanceInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlanceInterfaceController.m; sourceTree = "<group>"; };
+		F484EB131AE6AE1E00E12D92 /* TaskDocumentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskDocumentsViewController.h; sourceTree = "<group>"; };
+		F484EB141AE6AE1E00E12D92 /* TaskDocumentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskDocumentsViewController.m; sourceTree = "<group>"; };
+		F484EB151AE6AE1E00E12D92 /* TaskItemsPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskItemsPresenter.h; sourceTree = "<group>"; };
+		F484EB161AE6AE1E00E12D92 /* TaskItemsPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskItemsPresenter.m; sourceTree = "<group>"; };
+		F484EB171AE6AE1E00E12D92 /* TaskPresenting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskPresenting.h; sourceTree = "<group>"; };
+		F484EB181AE6AE1E00E12D92 /* TasksInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TasksInterfaceController.h; sourceTree = "<group>"; };
+		F484EB191AE6AE1E00E12D92 /* TasksInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TasksInterfaceController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +101,17 @@
 				F484EAEE1AE6ADBD00E12D92 /* AppDelegate.m */,
 				F484EAF01AE6ADBD00E12D92 /* ViewController.h */,
 				F484EAF11AE6ADBD00E12D92 /* ViewController.m */,
+				F484EB0F1AE6AE1E00E12D92 /* CloudTaskCoordinator.h */,
+				F484EB101AE6AE1E00E12D92 /* CloudTaskCoordinator.m */,
+				F484EB111AE6AE1E00E12D92 /* GlanceInterfaceController.h */,
+				F484EB121AE6AE1E00E12D92 /* GlanceInterfaceController.m */,
+				F484EB131AE6AE1E00E12D92 /* TaskDocumentsViewController.h */,
+				F484EB141AE6AE1E00E12D92 /* TaskDocumentsViewController.m */,
+				F484EB151AE6AE1E00E12D92 /* TaskItemsPresenter.h */,
+				F484EB161AE6AE1E00E12D92 /* TaskItemsPresenter.m */,
+				F484EB171AE6AE1E00E12D92 /* TaskPresenting.h */,
+				F484EB181AE6AE1E00E12D92 /* TasksInterfaceController.h */,
+				F484EB191AE6AE1E00E12D92 /* TasksInterfaceController.m */,
 				F484EAF31AE6ADBD00E12D92 /* Main.storyboard */,
 				F484EAF61AE6ADBD00E12D92 /* Images.xcassets */,
 				F484EAF81AE6ADBD00E12D92 /* LaunchScreen.xib */,
@@ -219,9 +246,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F484EB1E1AE6AE1E00E12D92 /* TasksInterfaceController.m in Sources */,
+				F484EB1C1AE6AE1E00E12D92 /* TaskDocumentsViewController.m in Sources */,
+				F484EB1D1AE6AE1E00E12D92 /* TaskItemsPresenter.m in Sources */,
+				F484EB1B1AE6AE1E00E12D92 /* GlanceInterfaceController.m in Sources */,
 				F484EAF21AE6ADBD00E12D92 /* ViewController.m in Sources */,
 				F484EAEF1AE6ADBD00E12D92 /* AppDelegate.m in Sources */,
 				F484EAEC1AE6ADBD00E12D92 /* main.m in Sources */,
+				F484EB1A1AE6AE1E00E12D92 /* CloudTaskCoordinator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
